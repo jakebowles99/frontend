@@ -1,0 +1,56 @@
+.quotes-container {
+    background-color: #393943;
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+  
+  .quotes-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-title {
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    padding: 20px 0 0 20px;
+  }
+  
+  .header-button {
+    background-color: #4e515a;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin: 20px 35px 0 0;
+  }
+  
+  .quotes-grid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  
+  .footer {
+    display: flex;
+  }
+  
+  .footer-button {
+    background-color: #4e515a;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    display: inline;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin: 0 0 20px 20px;
+  }
+  
+  .footer-button-icon {
+    display: inline;
+    margin: auto;
+  }
+  

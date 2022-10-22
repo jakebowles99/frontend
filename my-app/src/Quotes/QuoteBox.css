@@ -1,0 +1,74 @@
+.box {
+    background-color: #40424e;
+    color: #7a7c8a;
+    width: 82px;
+    height: 82px;
+    font-size: 9px;
+    text-align: left;
+    border-radius: 4px 4px 0 0;
+    margin: 0 10px 10px 0;
+  }
+  
+  .box-header-green {
+    background-color: #7edcc2;
+    color: #363642;
+    height: 10px;
+    border-radius: 4px 4px 0 0;
+    padding: 3px;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  .box-header-red {
+    background-color: #e75595;
+    color: #363642;
+    height: 10px;
+    border-radius: 4px 4px 0 0;
+    padding: 3px;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  .box-header-title {
+    flex-grow: 8;
+  }
+  
+  .box-content {
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .stock-name {
+    height: 20px;
+  }
+  
+  .stock-price {
+    padding-top: 30px;
+    color: #fff;
+  }
+  
+  .stock-other-data {
+    text-align: right;
+    margin: -20px 10px 0 0;
+  }
+  
+  .percentage-symbol-green {
+    display: inline;
+    color: #7edcc2;
+    opacity: 1;
+    animation: blinker 1s linear infinite;
+  }
+  
+  .percentage-symbol-red {
+    display: inline;
+    color: #e75595;
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  

@@ -1,0 +1,29 @@
+.news-container {
+    width: 320px;
+    background-color: #393943;
+    margin: 5px 0 0 20px;
+    padding: 20px;
+    font-size: 10px;
+    text-align: left;
+  }
+  
+  .news-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .news-time {
+    font-size: 8px;
+    color: #6b6c76;
+    padding-top: 3px;
+  }
+  
+  .news-title {
+    color: #fff;
+    padding: 15px 0 10px;
+  }
+  
+  .news-text {
+    color: #6b6c76;
+  }
+  

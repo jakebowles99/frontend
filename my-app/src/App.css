@@ -1,0 +1,42 @@
+body {
+  background-color: #31313b;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #32323c;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 735px;
+  margin: auto;
+}
+
+.search-container {
+  grid-column-start: 1;
+  grid-column-end: 11;
+}
+
+.columns-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-column {
+  margin: 0 auto;
+}
+
+.right-column {
+  margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .App {
+    width: 100%;
+  }
+  .columns-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,33 @@
+.tag-orange {
+    display: inline;
+    margin-right: 5px;
+    padding: 4px;
+    background-color: #4c4f5a;
+    color: #9d7d4f;
+    font-weight: bold;
+    font-size: 6px;
+    border-radius: 2px;
+  }
+  
+  .tag-blue {
+    display: inline;
+    margin-right: 5px;
+    padding: 4px;
+    background-color: #4c4f5a;
+    color: #7cdfc3;
+    font-weight: bold;
+    font-size: 6px;
+    border-radius: 2px;
+  }
+  
+  .tag-white {
+    display: inline;
+    margin-right: 5px;
+    padding: 4px;
+    background-color: #4c4f5a;
+    color: #fff;
+    font-weight: bold;
+    font-size: 6px;
+    border-radius: 2px;
+  }
+  
